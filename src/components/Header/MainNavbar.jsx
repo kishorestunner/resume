@@ -2,7 +2,8 @@
 import React from "react";
 
 import Link from "next/link";
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem } from "/NavBar";
+import { Navbar, NavbarBrand, NavbarContent, NavbarItem } from "../NavBar";
+
 
 export default function MainNavbar() {
   return (

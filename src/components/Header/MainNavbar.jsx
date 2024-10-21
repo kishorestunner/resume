@@ -12,37 +12,37 @@ export default function MainNavbar() {
   };
 
   return (
-    <Navbar height={"46px"} maxWidth="full" isBordered>
+    <Navbar height={"46px"} maxWidth="full" isBordered className="bg-primary-400">
       <NavbarBrand>
         <div className="flex gap-3 items-center">
-          <p className="text-gray-110 text-3xl font-bold">kishore</p>
+          <p className="text-white text-3xl font-bold">kishore</p>
         </div>
       </NavbarBrand>
       
       {/* Desktop menu */}
-      <NavbarContent className="hidden lg:flex gap-5 text-15 font-semibold" justify="end">
+      <NavbarContent className="hidden lg:flex gap-5 text-15 text-gray-0 font-semibold" justify="end">
         <NavbarItem>
-          <Link href="#home" className="hover:text-blue-500 hover:underline transition-colors duration-300">
+          <Link href="#home" className="text-white hover:text-blue-500  transition-colors duration-300">
             Home
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link href="#projects" className="hover:text-blue-500 hover:underline transition-colors duration-300">
+          <Link href="#projects" className="text-white hover:text-blue-500  transition-colors duration-300">
             My Project
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link href="#about" className="hover:text-blue-500 hover:underline transition-colors duration-300">
+          <Link href="#about" className="text-white hover:text-blue-500  transition-colors duration-300">
             About Me
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link href="#resume" className="hover:text-blue-500 hover:underline transition-colors duration-300">
+          <Link href="#resume" className="text-white hover:text-blue-500  transition-colors duration-300">
             Resume
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link href="#contact" className="hover:text-blue-500 hover:underline transition-colors duration-300">
+          <Link href="#contact" className="text-white hover:text-blue-500  transition-colors duration-300">
             Contact
           </Link>
         </NavbarItem>
